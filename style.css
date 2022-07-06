@@ -1,3 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+
+}
+
 h1 {
-    color: red;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+h3 {
+
+    font-size: 25px;
+    font-weight: 900;
+    padding-bottom: 25px;
+}
+
+.header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/donation13.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.back-image {
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.711);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.link-button {
+    margin: 30px;
+    padding: 15px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: lightcoral;
+    color: white;
+}
+
+.donate {
+    margin: 250px;
+    font-size: 20px;
+
+}
+
+#taka {
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(lightpink);
+    border: lightcoral solid 3px;
+    background-color: rgb(255, 221, 225);
+}
+
+.amount {
+    padding: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: grey;
+}
+
+/*.other-taka {
+
+    padding: 5px 0px;
+    border: 0px;
+    border-bottom: 2px solid grey;
+    align-items: center;
+    text-align: center;
+}*/
+
+
+.flex {
+
+    display: flex;
+    padding: 100px;
+
+
+}
+
+.plan {
+    padding: 50px;
+    margin: 20px;
+    width: 50%;
+    height: 300px;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.email {
+    margin: 50px 400px;
+    padding: 100px 10px;
+
+    background-color: rgb(253, 215, 220);
+    align-items: center;
+
+
 }
