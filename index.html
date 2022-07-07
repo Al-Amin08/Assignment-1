@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display, Yellowtail=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -37,7 +38,9 @@
                 <span style="padding: 30px;">1000tk</span>
                 <span style="padding: 30px;">5000tk</span>
             </div>
-            <div><input class="other-taka" type="text" placeholder="Other Amount(taka)"></div>
+            <div class="donate-button"><input class="other-taka" type="text" placeholder="Other Amount(taka)"></div>
+        </div>
+        <a class=" button donate-button" target="_blank" href="">Donate Now</a>
         </div>
 
     </section>
@@ -88,7 +91,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section style="padding-bottom: 200px;">
         <div>
             <h1>Get Our Updates</h1>
             <P style="text-align: center;padding: 20px; font-size: 25px; color: gray;">Write your email and subscribe
@@ -97,17 +100,20 @@
                 to touch newset
                 activities.</P>
         </div>
+
         <div class="email">
-            <input type="email" placeholder="Email">
-            <a href="https://www.youtube.com/"
-                style="text-decoration: none ;padding: 15px; background-color: lightcoral; border-radius: 0px 5px 5px 0px;"
-                target="_blank">subscribe</a>
+            <input type="email" placeholder="Email" id="email">
+
+
+            <button type="button" id="subscribe">subscribe</button>
         </div>
+
 
     </section>
 </body>
-<footer>
-    <h3>Be Humble</h3>
+<footer id="footer">
+    <h3 style="font-family: 'Yellowtail', cursive;" id="humble">Be Humble</h3>
+    <p style="color: white;padding-bottom: 90px;">I'm gonna do it..</p>
 </footer>
 
 </html>
