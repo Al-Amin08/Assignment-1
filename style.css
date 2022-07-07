@@ -130,12 +130,13 @@ h3 {
     padding-top: 5%;
 }
 
-.email {
+.email-1 {
     margin: 50px 400px;
     padding: 100px 10px;
 
     background-color: rgb(253, 215, 220);
     align-items: center;
+    display: flex;
 
 
 }
@@ -143,23 +144,26 @@ h3 {
 #subscribe {
     border: none;
     color: white;
-    padding: 16px 30px;
+    padding: 16px 15px;
     font-size: 16px;
-    margin: 1px 3px;
+    margin: 1px 3px 1px 120px;
     cursor: pointer;
     background-color: lightcoral;
     border-radius: 0px 5px 5px 0px;
-    margin-left: -6px;
+    margin-left: -15px;
+
 
 
 }
 
 #email {
-    padding: 17px 30px;
+    padding: 17px 15px;
     border: none;
     background-color: rgb(220, 246, 255);
 
-
+    margin: 1px 3px 1px 25px;
+    margin-left: 200px;
+    ;
 }
 
 #footer {
